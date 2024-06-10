@@ -1,0 +1,25 @@
+public function ajoutCardValidation(){
+        $file = $_FILES['image'];
+        echo "<pre>";
+        print_r($file);
+        echo "<pre>";
+        // $repertoire = "public/images/";
+        // $nomImageAjoute = $this->ajoutImage($file,$repertoire);
+        // $this->cardManager->ajoutCardBd($_POST['nomExercice'],$_POST['typeExercice'],$_POST['niveauDifficulte'],$_POST['descriptionEtapes'],$_POST['bienfaits'],$nomImageAjoute);
+        // header('Location: '. URL . "cards");
+    }
+
+
+
+resultat :
+
+
+Array
+(
+    [name] => logo.png
+    [full_path] => logo.png
+    [type] => image/png
+    [tmp_name] => C:\wamp64\tmp\phpC46D.tmp
+    [error] => 0
+    [size] => 53026
+)
