@@ -2,7 +2,7 @@
 ob_start(); 
 ?>
 
-Quoi en faire ?
+Si le temps gestion de compte (modification du mdp,login et image de profil ).
 
 <?php
 $content = ob_get_clean();

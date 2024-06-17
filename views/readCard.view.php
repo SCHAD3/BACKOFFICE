@@ -5,7 +5,7 @@ ob_start();
 
 <div class="row">
     <div class="col-6">
-        <img  src="<?= URL .'public/Assets/images/'. $card->getImage(); ?>">
+    <img class="img-fluid" style="max-height: 400px; width: auto;" src="<?= URL .'public/images/'. $card->getImage(); ?>">
     </div>
     <div class="col-6">
         <p>Nom de l'exercice : <?= $card->getNom(); ?></p>

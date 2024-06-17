@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css">
+    <link rel="stylesheet" href="public/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
@@ -16,10 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= URL ?>accueil">Accueil</a>
+                    <a class="nav-link" href="<?= URL ?>home">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= URL ?>cards"> Gestion des cartes d'exercices</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= URL ?>articles"> Gestion des articles mensuels</a>
                 </li>
             </ul>
         </div>

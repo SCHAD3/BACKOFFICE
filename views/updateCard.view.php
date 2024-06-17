@@ -36,7 +36,7 @@ ob_start();
 
 <?php
 $content = ob_get_clean();
-$titre = "Modification d'une carte:".$card->getId();
+$titre = "Modification de carte n°".$card->getId();
 
 require "template.php";
 ?>

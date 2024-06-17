@@ -18,7 +18,7 @@ class CardsController  {
 
     public function afficherCard($id){
         $card = $this->cardManager->getCardById($id);
-         var_dump($card); 
+        //  var_dump($card); 
         require "views/readCard.view.php";
     }
 
